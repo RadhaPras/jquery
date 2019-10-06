@@ -16,6 +16,7 @@ public class Assig1 {
 		Thread.sleep(1000);
 		driver.findElement(By.cssSelector("a[href='https://jqueryui.com/resizable/']")).click();
 		driver.findElement(By.xpath("(//a[text()='Sortable'])")).click();
+		driver.close();
 		
 	}
 
